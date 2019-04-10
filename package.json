@@ -1,7 +1,7 @@
 {
-  "name": "recipe_connection",
+  "name": "confetti_cuisine",
   "version": "1.0.0",
-  "description": "📙 Get Programming with Node.js Book",
+  "description": "📙 A site for booking classes for cooking.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,10 @@
     "url": "https://github.com/eugenekhristo/get-programming-with-nodejs/issues"
   },
   "homepage": "https://github.com/eugenekhristo/get-programming-with-nodejs#readme",
-  "dependencies": {}
+  "dependencies": {
+    "http-status-codes": "^1.3.2"
+  },
+  "devDependencies": {
+    "colors": "^1.3.3"
+  }
 }
